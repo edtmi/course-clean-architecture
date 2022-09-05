@@ -10,6 +10,7 @@
     "test:ci": "npm test -- --coverage"
   },
   "devDependencies": {
+    "@types/faker": "^5.1.2",
     "@types/jest": "^28.1.8",
     "@typescript-eslint/eslint-plugin": "^5.35.1",
     "eslint": "^8.23.0",
@@ -25,6 +26,9 @@
     "ts-jest": "^25.5.1"
   },
   "keywords": [],
-  "author": "", 
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
 }
